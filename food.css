@@ -1,0 +1,283 @@
+body
+{
+    height: 550vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(250, 248, 248);
+}
+a{
+    text-decoration: none;
+}
+li,a:hover{
+    color: rgb(224, 10, 10);
+}
+.navlist{
+    display: inline-flex;
+    padding:15px;
+    margin:10px;
+    list-style: none;
+}
+.navlist li
+{
+    padding:5px;
+    margin:10px;
+    font-size:1.7rem;
+    color:rgb(17, 16, 16);
+    font-style:italic;
+    font-weight: 560;
+}
+.rest
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/12/18/59/snack-2635035_960_720.jpg");
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size:  100% 95%;
+
+
+}
+.rest h1
+{
+    padding: 10px;
+}
+.but {
+    padding: 10px ;
+    width: 200px;
+    font-family: 'Arvo', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Langar', cursive;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    border-radius: 30px;
+    border:none;
+    outline:none;
+    background-color:rgba(85, 236, 97, 0.795);
+    font-weight: 500;
+    margin-left: 570px;
+}
+.but a{
+     
+    font-size:1.4rem;
+    color:rgb(14, 13, 13);  
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .card
+{
+  position: relative;
+  width: 365px;
+  height: 270px;
+  background: rgb(117, 116, 116);
+  margin:10px 5px;
+  overflow: hidden;
+  border-radius:15px;
+  margin-left:50px;
+}
+.container .card .imgbox img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: all .5s ease-in-out;
+    
+}
+.container .card .detail p
+{
+   position: relative;
+   background: transparent;
+    text-align: center;
+   padding: 15px;
+   height: 270px;
+   line-height: 20px;
+   transform:scale(0);
+   font-size: 1.4rem;
+   font-style: italic;
+   color: rgb(255, 217, 0);
+   font-weight: 750;
+
+}
+
+.container .card:hover .detail p
+{
+    transform: scale(1);
+}
+.container .card:hover .detail h3
+{
+    transform: scale(1);
+}
+
+.cv
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cv .cards
+{
+  position: relative;
+  width: 360px;
+  height: 340px;
+  background: rgb(240, 175, 175);
+  margin:15px;
+  overflow: hidden;
+  margin-left:50px;
+
+}
+.cv .cards  .imgBoxs
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  transition: .5s;
+
+}
+.cv .cards  .details
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+  margin-left: 10px;
+  font-style: italic;
+
+}
+.cv .cards:hover .details
+{
+  top:0;
+  left:0;
+}
+.cv .cards .imgBoxs
+{
+     top:0;
+     left:0;
+}
+.cv .cards:hover .imgBoxs
+{
+    top:0;
+    left:100%;
+}
+.cv .cards .details p
+{
+  color:rgb(235, 8, 8);
+  text-align: center;
+  padding:15px;
+  margin-left:0px;
+  font-style: italic;
+  font-size: 1.3rem;
+}
+.cv .cards .details h3
+{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    background-color: rgba(186, 188, 190, 0.342);
+}
+.fot{
+     display:flex;
+}
+.fot .box
+{
+    flex-basis: 40%;
+    padding: 10px;
+}
+.left
+{
+    margin-right: 10px;
+    padding:5px;
+}
+.center
+{
+    margin-right: 10px;
+    padding:5px;
+}
+
+.social i
+{
+    font-size: 25px;
+    padding:10px 10px;
+    color:rgb(0, 4, 255);
+    border-radius: 30px;
+}
+.social i:hover
+{
+    color: rgb(248, 1, 1);
+    background-color: yellow;
+}
+.end
+{
+    font-size: rem;
+    font-style: italic;
+    color:rgb(5, 5, 5);
+}
+.end a
+{
+    font-style: italic;
+    font-size: 1.5rem ;
+    color:rgb(255, 0, 212);
+    padding-left: 10px;
+}
+
+li
+{ 
+    padding: 5px;
+    font-size: 1.5rem;
+    color:rgb(12, 12, 12);
+    font-weight: 500;
+    list-style-type: none;
+    font-style: italic;
+ 
+}
+.center li
+{ 
+    padding: 5px;
+    font-size: 1.3rem;
+    color:rgb(0, 25, 248);
+    font-weight: 500;
+    list-style-type: none;
+    font-style: italic;
+}
+.place i
+{
+    color:rgb(2, 2, 2);
+}
+.place
+{
+  margin-bottom: 10px;
+  font-size:1.5rem;
+  color:rgb(23, 8, 243);
+  font-weight: 700;
+}
+.ph i
+{
+    color:rgb(7, 7, 7);
+}
+.ph
+{
+    margin-bottom: 10px;
+   font-size:1.5rem;
+   color:rgb(63, 4, 22);
+   font-weight: 700;
+}
+.email i
+{
+    color:rgb(7, 7, 7);
+}
+.email
+{
+    margin-bottom: 10px;
+    font-size:1.5rem;
+    color:rgb(193, 14, 247);
+    font-weight: 700;
+}
